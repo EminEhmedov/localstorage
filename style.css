@@ -1,0 +1,40 @@
+
+.container{
+    background-color: rgb(13, 153, 218);
+    min-height: 100vh
+}
+
+
+ul li{
+    box-sizing: border-box;
+    height: 60px;
+    padding: 20px 50px;
+    background-color: brown;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: baseline;
+    
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+ul li button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 25px;
+    border: none;
+}
+ul li p{
+    color: white;
+    height: 30px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
